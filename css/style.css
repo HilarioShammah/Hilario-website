@@ -24,7 +24,8 @@ section {
 header {
     display: flex;
     justify-content: space-between;
-    align-items:senter;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 15px 40px;
     background-color: #12294D;
 }
@@ -99,23 +100,12 @@ nav a:hover{
     background-color:#f7fbff;
 }
 
-.footer{
-    margin-top: 40px;
-    padding: 25px 40px;
-    background-color: #3b2314;
-    color:#F7FBFF;
-    text-align:center;
-    font-size:0.9rem;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.foooter p{
-    margin:5px 0;
-}
-.cards{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-}
-.card{
+.card {
     flex: 1 1 280px;
     padding: 20px;
     background-color:#F7FBFF;
@@ -123,6 +113,18 @@ nav a:hover{
     border-top: 5px solid #2a9db5;
     border-radius: 16px;
 }
-.card h3{
+.card h3 {
     margin-top:0;
 }
+
+footer{
+    margin-top: 40px;
+    padding: 25px 40px;
+    background-color: #3b2314;
+    color:#F7FBFF;
+    text-align:center;
+    font-size:0.9rem;
+}
+footer p{
+    margin:5px 0;}
+
