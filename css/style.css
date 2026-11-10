@@ -21,3 +21,10 @@ section {
     margin: 0 auto 30px auto;
 }
 
+header {
+    display flex;
+    justify-contrent; space-between;
+    padding: 15px 40px;
+    background-color: #2a5aa7;
+}
+
