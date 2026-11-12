@@ -128,3 +128,11 @@ footer{
 footer p{
     margin:5px 0;}
 
+@media(max-width: 200px) {
+    header {
+        flex-direction: column;
+        gap: 10 px;
+        padding: 15px 20px;
+    }
+}
+
